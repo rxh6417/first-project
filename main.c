@@ -26,7 +26,7 @@ int main() {
    printf("Total calories consumed %d mg\n\n\n",total);
     while (getchar() != '\n');
 
-   printf("Did you do exercise? example(walk or run) type y or n? ");
+   printf("Did you do exercise today? example(walk or run) type y or n? ");
    fgets(yes,5,stdin);
 
    if(yes[0] == 'y'){
